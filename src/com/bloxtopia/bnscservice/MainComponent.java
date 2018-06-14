@@ -169,6 +169,7 @@ public class MainComponent {
         
 	
 	public static void click(int x, int y, boolean click){
+	//Created by andreja6
 	    Robot bot;
 		try {
 			bot = new Robot();
@@ -185,6 +186,7 @@ public class MainComponent {
 	    
 	}
 	public static void scrollout(int x, int y){
+	//Created by andreja6
 	    Robot bot;
 		try {
 			bot = new Robot();
@@ -204,6 +206,7 @@ public class MainComponent {
 	}
 	
 	public static Image makeColorTransparent(BufferedImage im, final Color color) {
+	//Created by andreja6
         ImageFilter filter = new RGBImageFilter() {
 
             // the color we are looking for... Alpha bits are set to opaque
